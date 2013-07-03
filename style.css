@@ -1,9 +1,5 @@
 body {
   transition: background-color 0.5s ease;
-}
-.pretty {
-  background-color: #FF77E3;
-}
-.ugly {
-  background-color: #81FFDE;
+  width: 400px;
+  margin: 25px auto;
 }

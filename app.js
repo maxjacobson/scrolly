@@ -6,7 +6,6 @@ var random_hex = function() {
 
 $(document).ready(function() {
   $("body").css("background-color", random_hex());
-  $("body").addClass("pretty");
   $(document).scroll(function() {
     var position = $(document).scrollTop();
     if(position % 10 === 0) {
